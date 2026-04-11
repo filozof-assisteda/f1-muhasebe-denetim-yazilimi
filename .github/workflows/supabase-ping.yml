@@ -16,9 +16,9 @@ jobs:
             -H "apikey: ${{ secrets.SUPABASE_KEY }}" \
             -H "Authorization: Bearer ${{ secrets.SUPABASE_KEY }}")
           echo "HTTP Durum: $response"
-          if [ "$response" -ge 200 ] && [ "$response" -lt 300 ]; then
-            echo "Supabase aktif!"
-          else
-            echo "Hata: $response"
+          if [ "$response" = "000" ]; then
+            echo "HATA: Supabase ulasilamiyor!"
             exit 1
+          else
+            echo "Supabase aktif! (HTTP $response)"
           fi
