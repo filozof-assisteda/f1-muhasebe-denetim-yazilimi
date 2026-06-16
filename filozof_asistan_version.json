@@ -1,0 +1,27 @@
+{
+  "app": "FilozofAsistan",
+  "version": "1.0.1",
+  "released_at": "2026-06-17T01:41:00+03:00",
+  "mandatory": false,
+  "minimum_supported_version": "1.0.0",
+  "release_url": "https://github.com/filozof-assisteda/f1-muhasebe-denetim-yazilimi/releases/tag/v1.0.1",
+  "installer": {
+    "filename": "FilozofAsistanSetup-latest.exe",
+    "url": "https://github.com/filozof-assisteda/f1-muhasebe-denetim-yazilimi/releases/latest/download/FilozofAsistanSetup-latest.exe",
+    "versioned_url": "https://github.com/filozof-assisteda/f1-muhasebe-denetim-yazilimi/releases/download/v1.0.1/FilozofAsistanSetup-v1.0.1.exe",
+    "size_bytes": 136410556,
+    "sha256": "45F7491C8672BA5C1261B8F57B644894BFB16E1EB0D6AB48A86032D94FB65D45"
+  },
+  "zip": {
+    "filename": "FilozofAsistan-latest.zip",
+    "url": "https://github.com/filozof-assisteda/f1-muhasebe-denetim-yazilimi/releases/latest/download/FilozofAsistan-latest.zip",
+    "versioned_url": "https://github.com/filozof-assisteda/f1-muhasebe-denetim-yazilimi/releases/download/v1.0.1/FilozofAsistan-v1.0.1.zip",
+    "size_bytes": 187585486,
+    "sha256": "914278E933AFC2AB1073A652167B9DC69580E01E101285FCBCDE0E5FBBF22159"
+  },
+  "notes": [
+    "Windows kurulum paketi eklendi.",
+    "Kurulumda Windows açılışında sistem tepsisinde başlatma seçeneği eklendi.",
+    "SQL Bağlantıları ekranında yerel SQL bilgileri klasörü ve gizlilik notu eklendi."
+  ]
+}
